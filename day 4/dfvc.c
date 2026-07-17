@@ -4,7 +4,6 @@ int main() {
     int N;
     scanf("%d", &N);
 
-    /* ---- Invalid Input Case ---- */
     if (N < 1 || N > 21 || N % 2 == 0) {
         return 0;
     }
@@ -12,7 +11,7 @@ int main() {
     /* ---- Valid Case: Print Tree ---- */
     else {
 
-        int H = (N + 11) / 2;   // foliage height
+        int H = (N + 11) / 2;  
         int star = 1;
         int space = H - 1;
 
